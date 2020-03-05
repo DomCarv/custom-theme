@@ -56,11 +56,6 @@ function mytheme_require_plugins() {
         'required'  => true, 
     ),
     array(
-        'name'      => 'Wordfence Security – Firewall & Malware Scan',
-        'slug'      => 'wordfence',
-        'required'  => true,
-    ),
-    array(
         'name'      => 'Really Simple SSL',
         'slug'      => 'really-simple-ssl',
         'required'  => true,
@@ -69,6 +64,11 @@ function mytheme_require_plugins() {
     array(
         'name'      => 'Elementor Custom Skin',
         'slug'      => 'ele-custom-skin',
+        'required'  => false,
+    ),
+    array(
+        'name'      => 'Wordfence Security – Firewall & Malware Scan',
+        'slug'      => 'wordfence',
         'required'  => false,
     ),
     array(
@@ -84,11 +84,6 @@ function mytheme_require_plugins() {
     array(
         'name'      => 'SVG Support',
         'slug'      => 'svg-support',
-        'required'  => false,
-    ),
-    array(
-        'name'      => 'WebP Express',
-        'slug'      => 'webp-express',
         'required'  => false,
     ),
     array(

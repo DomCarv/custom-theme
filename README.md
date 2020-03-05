@@ -8,3 +8,25 @@ Quickfire Digital WordPress Child Theme
 or upload the theme directly into WordPress via "Appearance" > Themes and upload the .zip file.
 2. Activate the Theme through the 'Themes' menu in WordPress.
 2a. Ensure "Hello Elementor" theme is installed, but NOT activated. The child theme will need to be activated.
+
+-------------------------------------------------------
+    Plugins
+-------------------------------------------------------
+
+This theme comes with plugins that are required for all builds. Plugins are listed below;
+ Required
+ - Elementor
+ - Disable Comments
+ - Classic Editor 
+ - Wordfence Security
+ - WP Mail SMTP by WPForms
+ - Really Simple SSL
+ - GDPR Cookie Compliance
+ - Yoast SEO
+ 
+ Recommended
+ - Elementor Custom Skin
+ - Duplicate Post
+ - SVG Support
+ - Custom Post Type UI
+ - Advanced Custom Fields

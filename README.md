@@ -1,2 +1,2 @@
 # theme
-Custom WP Theme
+Custom WP Child Theme

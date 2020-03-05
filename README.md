@@ -14,6 +14,7 @@ or upload the theme directly into WordPress via "Appearance" > Themes and upload
 -------------------------------------------------------
 
 This theme comes with plugins that are required for all builds. Plugins are listed below;
+ 
  Required
  - Elementor
  - Disable Comments

@@ -13,7 +13,7 @@ or upload the theme directly into WordPress via "Appearance" > Themes and upload
     Plugins
 -------------------------------------------------------
 
-This theme comes with plugins that are required for all builds. Plugins are listed below;
+This theme includes plugins that are required for all web builds. Plugins are listed below;
  
  Required
  - Elementor

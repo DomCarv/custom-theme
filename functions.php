@@ -148,3 +148,24 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
  wp_enqueue_script( 'polyfill', 'https://polyfill.io/v3/polyfill.min.js?features=es2015%2Ces2016%2Ces2017%2Ces2018%2Ces5%2Ces6%2Ces7%2CWebAnimations%2Cdefault', array ( 'jquery' ), '1.1', true);
  /*----*/
+
+/*--AUTOMATICALLY REMOVE COMMENTS ON INSTALL--*/
+// Removes from admin menu
+add_action( 'admin_menu', 'my_remove_admin_menus' );
+function my_remove_admin_menus() {
+    remove_menu_page( 'edit-comments.php' );
+}
+// Removes from post and pages
+add_action('init', 'remove_comment_support', 100);
+
+function remove_comment_support() {
+    remove_post_type_support( 'post', 'comments' );
+    remove_post_type_support( 'page', 'comments' );
+}
+// Removes from admin bar
+function mytheme_admin_bar_render() {
+    global $wp_admin_bar;
+    $wp_admin_bar->remove_menu('comments');
+}
+add_action( 'wp_before_admin_bar_render', 'mytheme_admin_bar_render' );
+/*----*/
